@@ -29,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
 let Counter = 0
 basic.forever(function () {
     while (Counter == 3) {
-        basic.showString("Do Not Eat!")
+        basic.showIcon(IconNames.Angry)
         Counter = 4
     }
     if (Counter > 6) {
